@@ -28,6 +28,7 @@ install:
   - ls -la
   - rm -r -f .buildozer
   - ls -la
+  - yes
   - yes | travis_wait 20 buildozer android debug
   - ls -la
   - ls bin/ -l
